@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 import aws_controller
-import boto3
+
 
 app = Flask(__name__)
 

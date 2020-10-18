@@ -1,6 +1,6 @@
 import boto3 as boto3
 
-dynamo_client = boto3.client('dynamodb', "us-east-1")
+dynamo_client = boto3.client('dynamodb', "us-west-1")
 TABLE_NAME='Pokemon'
 
 
