@@ -1,0 +1,16 @@
+{
+    "TableName": "Pokemon",
+    "KeySchema": [
+      { "AttributeName": "name", "KeyType": "HASH" },
+      { "AttributeName": "type", "KeyType": "RANGE" }
+      
+    ],
+    "AttributeDefinitions": [
+      { "AttributeName": "name", "AttributeType": "S" },
+      { "AttributeName": "type", "AttributeType": "S" }
+    ],
+    "ProvisionedThroughput": {
+      "ReadCapacityUnits": 5,
+      "WriteCapacityUnits": 5
+    }
+}

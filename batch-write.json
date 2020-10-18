@@ -1,0 +1,41 @@
+{
+  "Pokemon": [
+    {
+      "PutRequest": {
+        "Item":
+        {
+          "name": {
+            "S": "pikachu"
+          },
+          "type": {
+            "S": "electric"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "name": {
+            "S": "charmander"
+          },
+          "type": {
+            "S": "fire"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item" : {
+          "name": {
+            "S": "blastoise"
+          },
+          "type": {
+            "S": "water"
+          }
+        }
+      }
+    }
+  ]
+}

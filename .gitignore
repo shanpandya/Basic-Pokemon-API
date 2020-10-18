@@ -1,0 +1,4 @@
+*.pem
+flaskapp/venv/
+flaskapp/__pycache__/
+flaskapp/.idea/
